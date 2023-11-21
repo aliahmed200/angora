@@ -1,0 +1,11 @@
+:root{
+ --Maincolor:crimson;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color:var(--Maincolor);
+}
+ 
+.nav-link:hover,.nav-link:focus{
+    color:var(--Maincolor);
+}
